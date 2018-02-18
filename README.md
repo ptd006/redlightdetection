@@ -7,7 +7,7 @@ Preprocessing with ffmpeg (cropping done manually for now):
 
 ```
 ffmpeg -i 20180218_142849.mp4 -vf "transpose=2,crop=600:600:270:500,transpose=1" -an -r 20 -b:v 100K PreprocessedLights.mpg
-ffmpeg -i PreprocessedLights.mpg -vf fps=10 snapshots/out%d.png
+ffmpeg -i PreprocessedLights.mpg -vf fps=0.5 snapshots/out%d.png
 
 [... processing with Python and OpenCV creates output images ...]
 
