@@ -1,7 +1,8 @@
 import cv2
 import numpy as np
 
-# initial search boxes
+# Initial search boxes (set manually).  These will be dynamically updated.
+# TODO: train neural network to find traffic lights
 red_box_UL = (307, 16)
 red_box_LR = (317, 26)
 
