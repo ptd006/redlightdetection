@@ -1,6 +1,7 @@
 # redlightdetection
 A fun learning project to catch red light jumpers automatically.
 
+Output of first version at: https://www.youtube.com/watch?v=ieVI8CehiPM
 
 Preprocessing with ffmpeg (cropping done manually for now):
 
